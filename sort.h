@@ -28,5 +28,7 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 /* Selection sort prototype */
 void selection_sort(int *array, size_t size);
+/* Quick sort prototype */
+void quick_sort(int *array, size_t size);
 
 #endif
