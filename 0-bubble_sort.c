@@ -25,10 +25,11 @@ void bubble_sort(int *array, size_t size)
 				array[j + 1] = temp;
 
 				swap = 1;
-				/* print the array after the swap */
-				print_array(array, size);
 			}
 		}
+		/* print the array after the swap */
+		print_array(array, size);
+
 		/**
 		 * if no swaps were made in a pass,
 		 * the array is already sorted.
